@@ -1,0 +1,131 @@
+.body-div
+{
+    padding: 10px;
+    margin-top: 10%;
+    margin-left: 27%;
+    width: 500px;
+    height: auto;
+    background-color: white;
+    box-shadow: 2px 2px 2px 2px rgb(192, 192, 192);
+    padding-bottom: 70px;
+}
+
+.add-button
+{
+    border: none;
+    margin-top: 10px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: rgb(99, 193, 230);
+    color: white;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
+.text-input
+{
+    height: 20px;
+    width: 250px;
+}
+.grocery-delete
+{
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 20px;
+    cursor: pointer;
+}
+.grocery-item
+{
+    margin-left: 70px;
+    align-content: center;
+    align-items: center;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.name-task
+{
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+}
+
+.cross-svg
+{
+    margin-top: 5px;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-bottom: 40px;
+    width: 20px;
+    height: 20px;
+}
+.animation-body
+{
+    position: absolute;
+    border-radius: 8px;
+
+    align-content: center;
+    align-items: center;
+    margin-left: 35%;
+    background-color: white;
+    width: 300px;
+    height: 70px;
+    box-shadow: 3px 3px 3px 4px gray;
+    animation: notification 4s ease-in-out forwards;
+    animation-iteration-count: infinite;
+}
+.animation {
+
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+.svg-logo
+{
+    padding-left: 10px;
+    margin-top: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+@keyframes notification {
+    0% {
+        transform: translateY(-130px);
+        opacity: 0;
+    }
+    5% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    10% {
+        transform: translateY(-20px);
+    }
+    15% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(-10px);
+    }
+    25% {
+        transform: translateY(0);
+    }
+    70% {
+        transform: translateY(0); 
+    }
+    90% {
+        transform: translateY(-130px); 
+    }
+    100% {
+        transform: translateY(-130px);
+        
+    }
+}
+.slider{
+    border-radius: 0px 0px 8px 8px;
+    height: 9px ;
+    width: 100%;
+    background-color: red;
+    transition: width 3s;
+}
+
