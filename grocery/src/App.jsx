@@ -5,6 +5,7 @@ import cross from "./Components/icons8-cross-30.png";
 import { use, useState } from "react";
 
 function App() {
+  
   const [animation, setAnimation] = useState(false);
   let msg = "Please Provide Value.";
 
@@ -19,7 +20,7 @@ function App() {
           </div>
           <div className="slider"></div>
         </div>
-      )}
+      ) }
 
       <Body setAnimation={setAnimation}></Body>
     </>

@@ -73,7 +73,7 @@
     height: 70px;
     box-shadow: 3px 3px 3px 4px gray;
     animation: notification 4s ease-in-out forwards;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
 }
 .animation {
 

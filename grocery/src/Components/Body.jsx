@@ -16,6 +16,9 @@ function Body({setAnimation}) {
         if(!task)
             {
                 setAnimation(true)
+                setTimeout(() => {
+                    setAnimation(false);
+                  }, 4000);
             }
         const updatedState = []
         if(action.payload)
@@ -48,6 +51,7 @@ function Body({setAnimation}) {
 
       }
     }
+    
   };
 
   const [task, setTask] = useState("");
